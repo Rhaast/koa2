@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "co": "^4.6.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.1.2"
+  },
+  "name": "koa2",
+  "description": ">1、生成器的出现主要是为了简化掉创建迭代器繁琐的过程，同时保证逻辑的清晰性。\r ```js\r function *makeIterator (arr) {\r     for (let i = 0;i<arr.length;i++){\r         yield arr[i]\r     }\r }",
+  "version": "1.0.0",
+  "main": "co.js",
+  "scripts": {
+    "dev":"nodemon -w src --exec \"babel-node src --presets env\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "author": "",
+  "license": "ISC"
+}
